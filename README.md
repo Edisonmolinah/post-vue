@@ -1,24 +1,39 @@
 # post_front
+Proyecto que consume un api en laravel para la creacion de post y categorias asociadas a estos.
+## desarrollado por  :
+
+- Edison Fabian Molina Herrera-TDS0032
+- Diego Arturo Vellojin Martínez- TDS0033
+- Laury Alejandra Mayorga Chaparro-TDS0032
 
 ## Project setup
-```
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### IMPORTANTE:
 
-### Compiles and minifies for production
-```
-npm run build
-```
+Se debe correr el Api de laravel del siguiente repositorio:
 
-### Lints and fixes files
-```
-npm run lint
-```
+- https://github.com/Edisonmolinah/laraver-app
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## una vez se tenga arriba la api del paso anterior Correr el proyecto vue
+
+- npm run serve
+
+
+- el proyecto correra en : http://localhost:8080/
+
+## Las rutas para hacer uso de la app vue
+
+get : http://localhost:8080/categories
+
+post: http://localhost:8080//create-categories
+
+put: http://localhost:8080/edit-categories/:id
+     
+get: http://localhost:8080/posts 
+  
+post: http://localhost:8080/create-post
+ 
+put: http://localhost:8080/edit-post/:id
+    
